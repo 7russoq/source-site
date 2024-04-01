@@ -7,15 +7,12 @@
 }
 
 body {
-    width: 100%;
+    
     font-family: roboto, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #000;
+    background: #ff0000;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-image: url(/media/gifff.gif)
 }
 
 a {
@@ -91,10 +88,11 @@ body .titlekk {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 40px;
     margin: 80px;
     position: relative;
-    border-radius: 10px
+    border-radius: 10px;
+
 }
 
 
@@ -159,7 +157,9 @@ body .titlekk {
     border-radius: 20px;
     color: #8b8b8b;
     padding: 8px 20px;
-    font-size: .9rem
+    font-size: .9rem;
+    margin-top: 35%;
+    
 }
 
 .sociais a:hover {
